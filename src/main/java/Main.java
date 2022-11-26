@@ -2,7 +2,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car car = new Car("Opel");
-        car.printCarName();
+        Car opel = new Car("Opel", "Black", 4);
+        Car BMW = new Car("BMW", "Grey", 4);
+        opel.printCarName();
+        BMW.printCarName();
     }
 }
